@@ -13,10 +13,10 @@ Requires:	emacs >= 21.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Minimal jabber client for Emacs
+Minimal jabber client for Emacs.
 
 %description -l pl
-Prosty klient jabbera dla Emacsa
+Prosty klient jabbera dla Emacsa.
 
 %prep
 %setup -q
@@ -24,7 +24,7 @@ Prosty klient jabbera dla Emacsa
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/emacs/site-lisp
-install *.el	$RPM_BUILD_ROOT%{_datadir}/emacs/site-lisp/
+install *.el	$RPM_BUILD_ROOT%{_datadir}/emacs/site-lisp
 install -d	$RPM_BUILD_ROOT%{_infodir}
 install *.info	$RPM_BUILD_ROOT%{_infodir}
 
