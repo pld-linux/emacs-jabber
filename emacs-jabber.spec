@@ -8,7 +8,6 @@ Group:		Applications/Editors/Emacs
 Source0:	http://dl.sourceforge.net/emacs-jabber/%{name}-%{version}.tar.gz
 # Source0-md5:	44f4780ea0d29738111ee853293b7997
 URL:		http://intellectronica.net/emac-jabber/
-BuildRequires:	emacs
 Requires:	emacs >= 21.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
