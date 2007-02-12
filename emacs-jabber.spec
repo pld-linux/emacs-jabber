@@ -1,5 +1,5 @@
 Summary:	Minimal jabber client for Emacs
-Summary(pl.UTF-8):   Prosty klient jabbera dla Emacsa
+Summary(pl.UTF-8):	Prosty klient jabbera dla Emacsa
 Name:		emacs-jabber
 Version:	0.6.1
 Release:	0.1
